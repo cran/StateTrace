@@ -5,11 +5,18 @@ export(
 	guista,
 	staMake,
 	stFirst,
+	guistFirst,
 	stSample,
+	guistSample,
 	stSummary,
+	guistSummary,
 	stProbplot,
+	guistProbplot,
 	stBootav,
+	guistBootav,
 	stPlot,
-	staManage)
+	guistPlot,
+	staManage,
+	guistaManage)
 	
 	

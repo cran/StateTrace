@@ -12,8 +12,8 @@ State-trace analysis (Bamber, 1979) is a graphical method for determining whethe
 \tabular{ll}{
 Package: \tab StateTrace\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2011-11-29\cr
+Version: \tab 1.0-1\cr
+Date: \tab 2011-11-30\cr
 License: \tab GPL (>= 2)\cr
 LazyLoad: \tab yes\cr
 }
