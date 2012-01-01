@@ -33,7 +33,7 @@ stBootav(staname = "", exclude = NULL,
      number of bootstrap samples to draw from each model.
 }
   \item{acc}{
-     logical value specifying whether a probability measure should be used when calculating the bootstrap averages. When \code{TRUE}, the proportion correct is used for B0 designs and the Hit minus False Alarm rate is used for B2 designs. When \code{FALSE}, the corresponding inverse cummulative normal (\emph{z}) transformation is used; i.e., \emph{z}(proportion correct) for B0 designs and the signal detection \emph{d'} measure for B2 designs.
+     logical value specifying whether a probability measure should be used when calculating the bootstrap averages. When \code{TRUE}, the proportion correct is used for B0 designs and the Hit minus False Alarm rate is used for B2 designs. When \code{FALSE}, the corresponding inverse cumulative normal (\emph{z}) transformation is used; i.e., \emph{z}(proportion correct) for B0 designs and the signal detection \emph{d'} measure for B2 designs.
 }
   \item{bootparticipants}{
      logical value indicating the method for calculating the bootstrap average. If \code{TRUE}, will treat the participants as a sample from a population and so re-samples them as well as re-sampling the posterior estimates. However, the user also has the option of calculating the bootstrap average by treating the participants as a fixed effect and so only does the latter re-sampling of the posterior estimates.

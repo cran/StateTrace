@@ -12,8 +12,8 @@ State-trace analysis (Bamber, 1979) is a graphical method for determining whethe
 \tabular{ll}{
 Package: \tab StateTrace\cr
 Type: \tab Package\cr
-Version: \tab 1.0-1\cr
-Date: \tab 2011-11-30\cr
+Version: \tab 1.0-2\cr
+Date: \tab 2012-01-01\cr
 License: \tab GPL (>= 2)\cr
 LazyLoad: \tab yes\cr
 }
@@ -29,7 +29,7 @@ Melissa Prince, Guy Hawkins, Jonathon Love and Andrew Heathcote\cr
 Maintainer: David Elliott <David.Elliott@newcastle.edu.au>
 }
 \references{
-Bamber, D. (1979). State-trace analysis: A method of testing simple theories of causation. \emph{Journal of Mathmematical Psychology, 19,} 137-181.\cr
+Bamber, D. (1979). State-trace analysis: A method of testing simple theories of causation. \emph{Journal of Mathematical Psychology, 19,} 137-181.\cr
 Prince, M., Brown, S., & Heathcote, A. (2011). The design and analysis of state-trace experiments. \emph{Psychological Methods}.\cr
 Prince, M., Hawkins, G., Love, J., & Heathcote, A. (2011). An R package for state-trace analysis. Manuscript submitted for publication.\cr
 \cr

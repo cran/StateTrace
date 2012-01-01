@@ -82,6 +82,9 @@ stProbplot(bosname = "", exclude = NULL,  maint = "", maino = "",
 \value{
   \code{stProbplot} will return a four panelled plot in a separate graphics device. Each panel corresponds to one of the four models (Non-Trace, No-Overlap, Uni-dimensional, Multi-dimensional) and plots the posterior model probabilities for each individual participant.
 }
+\section{known issues}{
+  Mac users please note that there is a known bug in the GUI version of this function. This issue seems to be related to the progressive customisation available to both of the plotting functions (\code{stProbplot} and \code{stPlot}) when using the GUI. There are no issues with either plotting function when all input is provided through the command line and so we recommend this method to Mac users (a command line example is provided below). However, if a GUI is desired, Mac users should note that when directly calling \code{guistProbplot()} it seems that clicking the OK button twice will produce the required output. Alternatively, when first calling \code{guista()} and then clicking the button for \code{stProbplot}, the only way to view the generated plot is to click the "Cancel" button. We are working on addressing this issue, but any feedback or suggestions would be welcome.
+}
 \references{
 Prince, M., Hawkins, G., Love, J., & Heathcote, A. (2011). An R package for state-trace analysis. Manuscript submitted for publication.\cr
 Raftery, A.E. (1995). Bayesian model selection in social research. \emph{Sociological Methodology, 25,} 111-163.

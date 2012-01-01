@@ -38,7 +38,7 @@ stPlot(bosname = "", exclude = NULL, main = NA, xlab = NA, ylab = NA,
      second level of the dimension factor to appear in the legend of the plot. 
 }
   \item{acc}{
-     logical value specifying whether a probability measure should be used when calculating the bootstrap averages and generating the state-trace plot. When \code{TRUE}, the proportion correct is used for B0 designs and the Hit minus False Alarm rate is used for B2 designs. When \code{FALSE}, the corresponding inverse cummulative normal (\emph{z}) transformation is used; i.e., \emph{z}(proportion correct) for B0 designs and the signal detection \emph{d'} measure for B2 designs.  Note this value must match the \code{acc} value used for \code{stBootav}.
+     logical value specifying whether a probability measure should be used when calculating the bootstrap averages and generating the state-trace plot. When \code{TRUE}, the proportion correct is used for B0 designs and the Hit minus False Alarm rate is used for B2 designs. When \code{FALSE}, the corresponding inverse cumulative normal (\emph{z}) transformation is used; i.e., \emph{z}(proportion correct) for B0 designs and the signal detection \emph{d'} measure for B2 designs.  Note this value must match the \code{acc} value used for \code{stBootav}.
 }
   \item{alls}{
      logical argument indicating if the state-trace plot should be generated for the group average (\code{TRUE}) or for each individual participant (\code{FALSE}).
@@ -92,6 +92,9 @@ stPlot(bosname = "", exclude = NULL, main = NA, xlab = NA, ylab = NA,
 }
 \value{
   \code{stPlot} will return a single plot if \code{alls = TRUE} or one plot for each individual participant if \code{alls = FALSE}. In both cases the plots will appear in separate graphics devices.
+}
+\section{known issues}{
+  Mac users please note that there is a known bug in the GUI version of this function. This issue seems to be related to the progressive customisation available to both of the plotting functions (\code{stProbplot} and \code{stPlot}) when using the GUI. There are no issues with either plotting function when all input is provided through the command line and so we recommend this method to Mac users (a command line example is provided below). However, if a GUI is desired, Mac users should note that when directly calling \code{guistPlot()} it seems that clicking the OK button twice will produce the required output. Alternatively, when first calling \code{guista()} and then clicking the button for \code{stPlot}, the only way to view the generated plot is to click the "Cancel" button. We are working on addressing this issue, but any feedback or suggestions would be welcome.
 }
 \references{
  Prince, M., Hawkins, G., Love, J., & Heathcote, A. (2011). An R package for state-trace analysis. Manuscript submitted for publication.\cr

@@ -37,7 +37,7 @@ staMake(staname = "", fnams = NULL, folder = "", extension = "txt",
      string used to specify empty cells in the data file/s. Where this string is located in the fifth column of the file (for trial files column "C", and for summary files column "n"), these rows will be stripped from further analysis.
 }
   \item{multiparticipant}{
-     logical value specfiying if the data file contains data for multiple participants (\code{TRUE}) or only a single participant (\code{FALSE}) 
+     logical value specifying if the data file contains data for multiple participants (\code{TRUE}) or only a single participant (\code{FALSE}) 
 }
   \item{a}{
      specifies the first beta shape parameter for the prior distribution. Here we assume an encompassing prior of uniform distributions, with the uniform being a special case of the Beta distribution, Beta(a, b), where a = b = 1 for the uniform.

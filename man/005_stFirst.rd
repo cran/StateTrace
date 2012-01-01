@@ -27,7 +27,7 @@ stFirst(staname = "", fnams = NULL, folder = "", extension = "txt",
      character string of the file extension of the data file/s. The \code{folder} and \code{extension} arguments can be used to load all of the data files contained in the specified folder by indicating the directory to search in (i.e., \code{folder}) and the type of file to load (i.e., \code{extension}).
 }
   \item{multiparticipant}{
-     logical value specfiying if the data files contain data for multiple participants (\code{TRUE}) or only a single participant (\code{FALSE}).
+     logical value specifying if the data files contain data for multiple participants (\code{TRUE}) or only a single participant (\code{FALSE}).
 }
   \item{header}{
      logical argument to specify if the data file contains a header row.
@@ -42,7 +42,7 @@ stFirst(staname = "", fnams = NULL, folder = "", extension = "txt",
      string used to specify empty cells in the data files. Where this string is located in the fifth column of the file (for trial files, column "C" and for summary files column "n"), these rows will be stripped from further analysis.
 }
   \item{acc}{
-     logical value specifying whether a probability measure should be used when calculating the bootstrap averages and generating the state-trace plot. When \code{TRUE}, the proportion correct is used for B0 designs and the Hit minus False Alarm rate is used for B2 designs. When \code{FALSE}, the corresponding inverse cummulative normal (\emph{z}) transformation is used; i.e., \emph{z}(proportion correct) for B0 designs and the signal detection \emph{d'} measure for B2 designs. 
+     logical value specifying whether a probability measure should be used when calculating the bootstrap averages and generating the state-trace plot. When \code{TRUE}, the proportion correct is used for B0 designs and the Hit minus False Alarm rate is used for B2 designs. When \code{FALSE}, the corresponding inverse cumulative normal (\emph{z}) transformation is used; i.e., \emph{z}(proportion correct) for B0 designs and the signal detection \emph{d'} measure for B2 designs. 
 }
 }
 \details{

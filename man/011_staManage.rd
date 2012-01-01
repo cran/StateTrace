@@ -72,7 +72,7 @@ staManage(stanames = "", staname = stanames[1],
 #### Example 2 ####
   ## If the user had a very large sample to analyse (such as when running a 
   ## simulation study), the data could be separated into more manageable  
-  ## portions and run simulaneously on separate machines.
+  ## portions and run simultaneously on separate machines.
   ## the separate sta objects (e.g., DFIE-1, DFIE-2 etc.) can then be 
   ## combined using:
 

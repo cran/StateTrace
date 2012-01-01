@@ -5,7 +5,7 @@
 Refine Sampling Estimates
 }
 \description{
-The sampling estimates can be further refined using \code{stSample}, which will repeatedly draw samples from the encompassing and trace models until the required precision (which can be set independently for each model) is satisifed or the maximum computation time allowed has elapsed.
+The sampling estimates can be further refined using \code{stSample}, which will repeatedly draw samples from the encompassing and trace models until the required precision (which can be set independently for each model) is satisfied or the maximum computation time allowed has elapsed.
 }
 \usage{
 guistSample()
@@ -59,7 +59,7 @@ stSample(bosname = "", refresh = FALSE, maxt = 0, ci = 95,
      number of monotonic model samples to keep stored in the sta object, which will be used in plotting (e.g., \code{\link{stBootav}} and \code{\link{stPlot}}).
 }
   \item{verbose}{
-     numeric value (\code{0, 1, 2}) controlling the information printed to the R console during sampling: \code{0} is silent, \code{1} prints the estimated total time remaining after each run for all participants and \code{2} adds estimated timings per partcipant.
+     numeric value (\code{0, 1, 2}) controlling the information printed to the R console during sampling: \code{0} is silent, \code{1} prints the estimated total time remaining after each run for all participants and \code{2} adds estimated timings per participant.
 }
 }
 \details{
