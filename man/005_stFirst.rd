@@ -9,8 +9,8 @@ The \code{stFirst} function provides a wrapper for several other functions that 
 }
 \usage{
 guistFirst()
-stFirst(staname = "", fnams = NULL, folder = "", extension = "txt",
-        multiparticipant = FALSE, header = TRUE,  sep = "tab",
+stFirst(staname = "", fnams = NULL, folder = "", extension = "txt",  
+        sep = "tab",multiparticipant = FALSE, header = TRUE,  
         usecols = NULL, na.strings = "NA", acc = TRUE)
 }
 \arguments{
@@ -26,14 +26,14 @@ stFirst(staname = "", fnams = NULL, folder = "", extension = "txt",
   \item{extension}{
      character string of the file extension of the data file/s. The \code{folder} and \code{extension} arguments can be used to load all of the data files contained in the specified folder by indicating the directory to search in (i.e., \code{folder}) and the type of file to load (i.e., \code{extension}).
 }
+  \item{sep}{
+     field separator character used in the data files.
+}
   \item{multiparticipant}{
      logical value specifying if the data files contain data for multiple participants (\code{TRUE}) or only a single participant (\code{FALSE}).
 }
   \item{header}{
      logical argument to specify if the data file contains a header row.
-}
-  \item{sep}{
-     field separator character used in the data files.
 }
   \item{usecols}{
      vector of integers or character strings specifying the columns to use from the data file.
